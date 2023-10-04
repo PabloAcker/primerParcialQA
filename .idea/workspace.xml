@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aefcc8c-30dc-4874-91d9-6c1c0373797f" name="Changes" comment="Parcial 1 commit 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/ReservaVuelosHelperMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/ReservaVuelosMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio3Test/ReservaVuelosMSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ejercicio2Test/ReservaVuelosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ejercicio2Test/ReservaVuelosTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4aefcc8c-30dc-4874-91d9-6c1c0373797f" name="Changes" comment="Parcial 1 commit 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +14,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,8 +55,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Pablo/IdeaProjects/UPB2023UnitTesting&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.ReservaVuelosTest">
-    <configuration name="DescuentoSalarioTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ReservaVuelosMSTest.verifyReservaDeVuelosConMesCorrecto">
+    <configuration name="ReservaVuelosMSTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -65,7 +69,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ejercicio1Test.DescuentoSalarioTest&quot;" />
+            <option value="&quot;ejercicio3Test.ReservaVuelosMSTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -76,7 +80,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ReservaVuelosTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReservaVuelosMSTest.verifyReservaDeVuelosConMesCorrecto" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +93,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ejercicio2Test.ReservaVuelosTest&quot;" />
+            <option value="&quot;ejercicio3Test.ReservaVuelosMSTest.verifyReservaDeVuelosConMesCorrecto&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaVuelosMSTest.verifyReservaDeVuelosConPasajeDispo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicio3Test.ReservaVuelosMSTest.verifyReservaDeVuelosConPasajeDispo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaVuelosMSTest.verifyReservaDeVuelosOtroDestino" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicio3Test.ReservaVuelosMSTest.verifyReservaDeVuelosOtroDestino&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaVuelosMSTest.verifyReservaDeVuelosSinPasajeDispo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicio3Test.ReservaVuelosMSTest.verifyReservaDeVuelosSinPasajeDispo&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -102,8 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ReservaVuelosTest" />
-        <item itemvalue="Gradle.DescuentoSalarioTest" />
+        <item itemvalue="Gradle.ReservaVuelosMSTest.verifyReservaDeVuelosConMesCorrecto" />
+        <item itemvalue="Gradle.ReservaVuelosMSTest.verifyReservaDeVuelosOtroDestino" />
+        <item itemvalue="Gradle.ReservaVuelosMSTest.verifyReservaDeVuelosSinPasajeDispo" />
+        <item itemvalue="Gradle.ReservaVuelosMSTest.verifyReservaDeVuelosConPasajeDispo" />
+        <item itemvalue="Gradle.ReservaVuelosMSTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +219,47 @@
       <option name="project" value="LOCAL" />
       <updated>1696458975866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Parcial 1 commit 2">
+      <option name="closed" value="true" />
+      <created>1696460486848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696460486848</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Parcial 1 commit 2">
+      <option name="closed" value="true" />
+      <created>1696460492812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696460492812</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Parcial 1 commit 2">
+      <option name="closed" value="true" />
+      <created>1696460605612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696460605612</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Parcial 1 commit 3">
+      <option name="closed" value="true" />
+      <created>1696461503052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696461503052</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Parcial 1 commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parcial 1 commit 1" />
+    <MESSAGE value="Parcial 1 commit 2" />
+    <MESSAGE value="Parcial 1 commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial 1 commit 3" />
   </component>
 </project>
